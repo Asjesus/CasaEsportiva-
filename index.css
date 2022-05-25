@@ -269,3 +269,117 @@ display: flex;
     }
 
 }
+
+@media screen and (max-width: 260px){
+
+    .atletas img {
+        width: 18vw;
+        height: 35vw;
+    }
+
+    .atletas{
+        width: 80vw;
+        display: flex;
+        justify-content:space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .todos {
+
+        color: white;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: "roboto", sans-serif;
+        font-style: normal;
+        font-size: 2vw;
+        line-height: 1vw;
+        width: 50vw; 
+       
+        } 
+        .links {
+            width: 65vw;
+    }
+
+        .menu-slogam a{
+            padding-top: 1vw;
+            color: white;
+            text-transform:uppercase;
+            font-weight: 300;
+            font-size: 1.5vw;
+            font-family: "roboto", sans-serif;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+        .imput{
+        display: none;
+        
+        }
+        
+        .imput button{
+            display: none;
+            
+        }
+        .imput input{
+           display: none;
+           
+        
+        }
+        .logo img{
+            width: 16vw;
+            height: 16vw;
+            
+        }
+        .menu-slogam{
+            width: 70vw;
+            padding-top: 1vw;
+            padding-bottom: 2vw;
+            height: 9vw;
+        }
+    
+        .quem-somos{
+            display: none;
+          
+        }
+        
+        .quem-somos p {
+            display: none;
+        }
+        
+        
+        .quem-somos a {
+            display: none;
+    
+        }
+        
+        .lojas h1{
+        
+            display: none;;
+        }
+        
+        .lojas a {
+            display: none;
+        
+        }
+  
+        .uniformes p {
+            display: none;
+        }
+      
+        .redes img{
+            width: 25vw;
+            padding-right: 20vw;
+           
+        }
+     .uniformes img{
+         padding-right: 40vw;
+     }
+     .rodape{
+      width: 80vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+    
+}
