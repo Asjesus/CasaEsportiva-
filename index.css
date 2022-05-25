@@ -227,7 +227,45 @@ display: flex;
     padding-left: 5px;
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1320px){
 
-   
+    .atletas img {
+        width: 20vw;
+        height: 37vw;
+    }
+
+    .atletas{
+        width: 82vw;
+        display: flex;
+        justify-content:space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .redes p {
+
+    display: none;
+      
+    }
+
+    .redes img{
+        height: 5vw;
+        padding-right: 18px;  
+    }
+}
+
+@media screen and (max-width: 656px){
+
+    .atletas img {
+        width: 19vw;
+        height: 36vw;
+    }
+
+    .atletas{
+        width: 81vw;
+        display: flex;
+        justify-content:space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 }
